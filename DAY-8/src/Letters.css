@@ -1,0 +1,76 @@
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scroll-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#642bff,#ff22e6) ;
+    border-radius:5px;
+}
+.learnlet{
+    color: #4b4b4b;
+    font: 32px  din-round,sans-serif;
+    margin-top: 50px;
+    margin-left: 620px;
+  height: 30px;
+  width: 300px;
+}
+.greetlearn{
+    color: #777777;
+    font: 19px  din-round,sans-serif;
+    margin-top: 25px;
+    margin-left: 590px;
+    text-align: center;
+  height: 40px;
+  width: 300px;
+}
+.box{
+    background-color: #1CB0F6;
+    color: white;
+    font: 15px din-round,sans-serif;
+    border-radius: 12px;
+    height: 40px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 600px;
+    padding: 8px 24px;
+}
+.learn{
+    color: #f7f7f7;
+    font:15px din-round,sans-serif;
+    text-align: center;
+    margin-top: 20px
+    
+
+}
+.let{
+
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+.vov{
+
+    color: red;
+    font:50px din-round,sans-serif;
+    margin-left:650px;
+    margin-top: 50px;
+    
+}
+.vovs{
+
+    color: red;
+    font:50px din-round,sans-serif;
+    margin-left:600px;
+    margin-top: 50px;
+    
+}
+.lett{
+
+    height: 500px;
+
+    margin-top: 50px;
+    
+}
