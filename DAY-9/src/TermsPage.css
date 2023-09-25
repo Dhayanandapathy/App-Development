@@ -1,0 +1,42 @@
+.terms-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.terms-header {
+    background-color: #4c68d7;  /* A soothing blue color */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.terms-header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.terms-content h2 {
+    font-size: 2em;
+    border-bottom: 3px solid #4c68d7;  /* Matching the header color */
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.terms-content p {
+    margin: 20px 0;
+    font-size: 1.1em;  /* Slightly larger than the standard text */
+    color: #444;  /* Darker text for better readability */
+    background-color: #ffffff;  /* White background for content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);  /* Subtle shadow for depth */
+}

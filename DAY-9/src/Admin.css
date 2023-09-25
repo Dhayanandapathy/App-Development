@@ -1,0 +1,311 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-heer {
+    background-color: #333;
+    color: white;
+    width: 1481px;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 3;
+    max-height: 60px; /* Adjust the maximum height as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis;
+    position: relative;
+    
+  justify-content: space-between; 
+  }
+  
+  nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Add more specific styles for your dashboard content here */
+  .hole{
+    margin-bottom: 10%;
+  }
+  /* Add these styles to your CSS file */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Additional styles for the h1 element */
+.App-header h1 {
+  font-size: 24px;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Add ellipsis for text overflow */
+  margin: 0;
+  
+}
+.bos{
+  width: 20%;
+  height:700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #5b5a5a63;
+  border: 1px solid #cccccc3a;
+  margin-left: -80px;
+    
+}
+.bab1 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.bab1:hover{
+  background-color: #474747;
+}
+.bab2 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.bab2:hover{
+  background-color: #474747;
+}
+.bab3 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.bab3:hover{
+  background-color: #474747;
+}
+.bab4 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.bab4:hover{
+  background-color: #474747;
+}
+.bab5 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.bab5:hover{
+  background-color: #474747;
+}
+.bab6 {
+  border-radius: 8px;
+  background-color: #333;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.bab6:hover{
+  background-color: #474747;
+}
+/* LanguageLearningChart.css */
+{/*}.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -600px;
+  font-size: 20px;
+  margin-left: -200px;
+  position:absolute;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.bar-label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.bar-fill {
+  background-color: #3d4242ac;
+  color: white;
+  padding: 4px;
+  transition: width 0.5s ease; 
+}
+.abos{
+  width: 20%;
+  height:70px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0a0a0a94;
+  border: 1px solid #cccccc3a;
+  
+} */}
+/* CSS */
+
+.abos {
+  width: 15%;
+  height: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: 363636;
+  background-color: #0a0a0a94;
+  border: 1px solid #cccccc3a;
+  position: absolute;
+  top: 0; /* Position at the top of the page */
+  z-index: 1;
+  margin-top:200px;
+  margin-left: 400px;
+  background-color: #5b5a5a63;
+  border-radius: 15px;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the chart */
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.bar-label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.bar-fill {
+  background-color: #3d4242ac; /* Change color as needed */
+  color: white;
+  padding: 4px;
+  transition: width 0.5s ease; /* Add animation for the bar fill */
+}
+
+/* Add any other styles you need */
+
+.pbos {
+  width: 15%;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: black;
+  background-color: #0a0a0a94;
+  border: 1px solid #cccccc3a;
+  position: absolute;
+  top: 0; /* Position at the top of the page */
+  z-index: 1;
+  margin-top:200px;
+  margin-left: 780px;
+  background-color: #5b5a5a63;
+  border-radius: 15px;
+}
+.progress-label{
+  font-size: 20px;
+  margin-top:15px;
+}
+.tracker-title{
+  margin-top:15px;
+  
+}
+
+.bbos{
+    width: 377px;
+    height:700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5b5a5a63;
+    border: 1px solid #cccccc3a;
+    margin-left:1100px;
+    margin-top:-742px;
+    
+  }
+  .proname{
+    margin-top: -742;
+  }
+ /* Your existing CSS styles */
+
+.images-container {
+  text-align: center;
+   /* Center the image horizontally */
+}
+
+.image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  margin-right: -45px;
+    margin-top:-700px;
+    margin-right: 170px;
+}
+.ana{
+  margin-left:1000px;
+  margin-top:50px;
+}
+.pan{
+    margin-left:1000px;
+  margin-top:40px;
+}
+.ran{
+    margin-left:1000px;
+  margin-top:30px;
+}
