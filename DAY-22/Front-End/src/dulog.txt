@@ -1,0 +1,136 @@
+import './Style.css'
+import Logoss from './logo.jpg'
+import { useState } from "react"
+import Signup from './Signup'
+import { useNavigate } from 'react-router-dom'
+import store from './store'
+import { setName } from "./loginreducer"
+import axios from 'axios';
+
+
+function Login() {
+
+   const [ps, setps] = useState(true)
+    let nav = useNavigate();
+ const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+    const handleLogin = async () => {
+        try {
+            const email = document.querySelector("#loginemailInput").value;
+            const password = document.querySelector("#loginPasswordInput").value;
+    
+            // Make an HTTP POST request to your authentication endpoint
+            const response = await axios.post('http://localhost:8080/api/v1/auth', {
+                email: email,
+                password: password
+            });
+    
+            if (response.status === 200) {
+                // Authentication successful, redirect to the appropriate page
+                console.log(response.data);
+                if (email.includes("@admin")) {
+                    nav("/admin");
+                } else {
+                    nav("/home");
+                }
+            } else {
+                // Authentication failed
+                console.error('Authentication failed');
+            }
+        } catch (error) {
+            // Handle network or other errors
+            console.error('Error:', error);
+        }
+    };
+    return (
+        
+       
+        
+        <div className="body">
+            <div className="container">
+                <div className="logo">
+              {/*      <img src={Logoss} alt='logos' width="50%" height="100%" />*/}
+                    {ps && (<div className="login-wrapper">
+                        <div className="input-box">
+                            {/*<div className="input-label">Student Id </div>
+                            <input type="text" required />*/}
+                           <div className="input-label">Username</div>
+              <input
+                type="text"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+
+                        <div className="input-box">
+                            <div className="input-label">
+                                <span>Password</span>
+                                <p>Forgot password?</p>
+                            </div>
+                            <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+
+                        <button className="submit-btn" onClick={handleLogin}>
+    Submit
+</button>
+
+                   {/*     <button className="submit-btn" onClick={() => {
+                            const name = document.querySelector("#loginUserNameInput").value;
+                            store.dispatch(setName(name))
+                            if (name.includes("@admin")) {
+                                nav("/admin")
+                                return
+                            }
+                            nav("/home")
+
+                        }}>
+                            Submit
+                        </button>*/}
+                        <div className="info" onClick={()=>nav("/signup")}>
+                            <span>New to NIPO?
+                                <button Link style={{ border: "none", color: "blue", cursor: "pointer" }} onClick={() => { setps(false) }}>  Create an account.</button>
+                            </span>
+                        </div>
+                    </div>)}
+                    {/* {
+                        !ps && (<><div className="login-wrapper">
+                            <div className="input-box">
+                                <div className="input-label">Stuent ID</div>
+                                <input type="text" required />
+                                <div className="input-label">Username</div>
+                                <input type="text" required />
+                            </div>
+
+                            <div className="input-box">
+                                <div className="input-label">
+                                    <span>Password</span>
+                                </div>
+                                <input type="password" required />
+                            </div>
+
+                            <button className="submit-btn" >
+                                Sign Up
+                            </button>
+                            <div className="info" >
+                                <span>
+                                    <p>Already have an account?</p >
+                                </span>
+                            </div>
+                        </div></>)
+                    } */}
+                </div>
+            </div>
+
+
+        </div>
+    )
+}
+
+export default Login;

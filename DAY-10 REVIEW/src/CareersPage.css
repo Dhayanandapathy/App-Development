@@ -1,0 +1,81 @@
+.careers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+}
+
+.careers-header {
+    background: linear-gradient(45deg, #0099cc, #006699);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.careers-header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.job {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.job:hover {
+    transform: translateY(-10px);
+}
+
+.job h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.apply-button {
+    background-color: #0099cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #007799;
+}
+
+.team-photos {
+    margin-top: 60px;
+    /* Add styles for displaying team photos or collages */
+}
+
+.testimonials {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+}

@@ -1,0 +1,199 @@
+.hd {
+  font-size: 30px;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.imgt {
+  height: 350px;
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 200px;
+
+}
+
+.levfoot {
+  display: flex;
+  margin-top: 25px;
+  background-color: lightblue;
+  height: 142px;
+
+}
+
+.back {
+  border-color: white;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  margin-left: 230px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.skip {
+  border-color: white;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  margin-left: 500px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.su {
+
+  display: flex;
+}
+
+.buts {
+  flex-direction: column;
+}
+
+.op1 {
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 30px;
+  background-color: white;
+  height: 40px;
+  width: 400px;
+}
+
+.op1:hover {
+  width: 410px;
+  height: 50px;
+}
+
+op2 {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-size: 30px;
+  background-color: white;
+  height: 40px;
+  width: 400px;
+}
+
+.op3 {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 30px;
+  background-color: white;
+  height: 40px;
+  width: 400px;
+}
+
+.op1:hover {
+  width: 410px;
+  height: 50px;
+}
+
+.op2:hover {
+  width: 410px;
+  height: 50px;
+}
+
+.op3:hover {
+  width: 410px;
+  height: 50px;
+}
+
+.dumdata {
+  margin-top: 100px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+  height: 120px;
+  width: 600px;
+  margin-left: 400px;
+  font-size: 15px, sans-serif;
+}
+
+/* CSS for the celebration animation */
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+/* Celebration.css */
+
+.celebration {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcc00;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 9999;
+  /* Ensure it's above other content */
+  animation: bounce 2s ease infinite, fadeOut 5s ease 2s forwards;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.om {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgo1 {
+
+  margin-left: 400px;
+}
+
+.lvl1-runner {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  transition: 0.5;
+}
+
+.lvl1-content {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+.letter-box{
+  height: 100%;
+}

@@ -1,0 +1,95 @@
+.feedcon{
+  background-color: rgba(128, 0, 128, 0.502);
+  margin-left: 400px;
+  width: 60%;
+  height: 1100px;
+  position: relative;
+  bottom: -60px;
+  
+  border-radius: 30px;
+}
+.feedcon1{
+    background-color: rgb(141, 2, 141);
+    width: 906px;
+    margin-top: -19px;
+    margin-left: -140px;
+    height: 200px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.feedpara{
+  margin-left: -900px;
+  
+}
+.feedhead1{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.feedinput {
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-dark);
+}
+
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 0px;
+    right: 20px;
+  }
+  .feedback-container input
+  {
+    width: 594px;
+    margin-left: -1px;
+    margin-top: 25px;
+    height: 40px;
+    border-radius: 4px;
+    
+  }
+  .feedhead2{
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .feedhead3{
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    
+  }
+  
+  label {
+    margin-bottom: 25px;
+  }
+  
+  textarea {
+    height: 150px;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: rgba(128, 0, 128, 0.75);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  
+  button:hover {
+    background-color: rgba(128, 0, 128, 0.335);
+  }

@@ -1,0 +1,258 @@
+.jollyo{
+    height: 900px;
+    width: 1200px;
+    margin-left: 280px;
+    margin-top: 100px;
+    
+}
+/*.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .btn{
+    margin: 2px;;
+  }
+  .divbtn{
+    float: left;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: slategrey;
+    padding: 10px 20px;
+    z-index: 1000;
+    height: 60px;
+  }
+  
+  .left-buttons {
+    display: flex;
+  }
+  
+  .nav-button1 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 690px;
+    cursor: pointer;
+  }
+  .nav-button2 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+  .nav-button3 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+  
+  
+  .nav-button1:hover {
+    color: #0074D9; 
+  
+  .nav-button2:hover {
+    color: #0074D9; 
+  }
+  .nav-button3:hover {
+    color: #0074D9; 
+  }
+  .nipobom{
+    display: flex;
+  }
+  .nipob{
+
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 600px;
+    width: 600px;
+  }
+  .wc{
+    margin-top: 180px;
+    margin-left: 280px;
+    color: purple;
+    font-size: 50px;
+    height: 100px;
+
+  }
+  .sibu{
+    font-size: 20px;
+    margin-top:70px;
+    margin-left: 37%;
+    width: 350px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 20px;
+    color:white;
+    border: #58CC02;
+    
+  }
+  .crbu{
+    
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 37%;
+    width: 350px;
+    height: 50px;
+    border-color: white;
+    color:#1CB0F6;
+    border-radius: 20px;
+  
+    
+  }
+  .waste{
+    margin-left: 250px;
+    font-size: 30px;
+  }
+  .mspas{
+    margin-right: -70px;
+    margin-top: 30px;
+    width: 882px;
+    height: 600px;
+  }
+  .footerbro{
+  height: 90px;  
+  background-color: white;
+  }
+  */
+  /* Reset some default browser styles */
+
+  
+  /*body, div, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+  }*/
+  body {
+    font-family: Arial, sans-serif;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+   /* background-image: url(''); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* This will make the background image cover the entire body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+  
+  /* Container for the entire application */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightblue;
+  }
+  
+  /* Style for buttons */
+  .buttonk {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonk:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .boxxx{
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 900px;
+    width: 900px;
+  }

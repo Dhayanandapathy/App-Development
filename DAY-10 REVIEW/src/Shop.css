@@ -1,0 +1,196 @@
+/* Style for the container */
+.image-container {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the container horizontally */
+  }
+  
+  /* Style for the image */
+  .let {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right top;
+    border-radius: 10px;
+  }
+  
+  /* Style for the text overlay */
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    margin-left: 300px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  /* Style for the text */
+  .hds {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom:150px;
+    margin-left: 300px;
+}
+  
+  .prs {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    top: -120px;
+    left: -89px;
+  }
+  .bts{
+    
+    margin-bottom: 30px;
+    margin-right: 120px;
+    font-size: 25px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .hea{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    bottom: -45px;
+    top:-20;
+    font-weight:bold ;
+  }
+  .line1 {
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Line color */
+    margin-left: 300px;
+  }
+  .line2{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Line color */
+    margin-top: -90px;
+  }
+  .line3{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Line color */
+    margin-top: -90px;
+  }
+  .line4{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Line color */
+    margin-top: -90px;
+  }
+  .pars{
+    font-size: 25px;
+    margin-left: 350px;
+    font-weight: 300;
+    bottom: 50px; 
+    position: relative;
+    top: -210px;
+    left: -89px;
+    font-weight: bold;
+  }
+  .pras{
+    font-size: 25px;
+    margin-left: 350px;
+    color: grey;
+    bottom: 50px; 
+    position: relative;
+    top: -190px;
+    left: -89px;
+  }
+  .had{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    bottom: 100px;
+    top:-10;
+    font-weight:bold ;
+    margin-left: 00px;
+  }
+  .btts {
+    position: relative; /* Set the position to relative */
+    top: -160px; /* Adjust the top value to move it up */
+    margin-left: 520px;
+    font-size: 25px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    color:#CF17C8
+  }
+  
+
+  .redheart{
+    margin-top: 60px;
+  }
+  .str{
+    font-size: 25px;
+    margin-left: 350px;
+    font-weight: 300;
+    bottom: 50px; 
+    position: relative;
+    top: -210px;
+    left: -89px;
+    font-weight: bold;
+  }
+  .strs{
+    font-size: 25px;
+    margin-left: 350px;
+    color: grey;
+    bottom: 50px; 
+    position: relative;
+    top: -190px;
+    left: -89px;
+  }
+  .btstr{
+    position: relative; /* Set the position to relative */
+    top: -160px; /* Adjust the top value to move it up */
+    margin-left: 520px;
+    font-size: 25px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    COLOR:#1CB0F6;
+  }
+  .cha{
+    font-size: 25px;
+    margin-left: 350px;
+    font-weight: 300;
+    bottom: 50px; 
+    position: relative;
+    top: -210px;
+    left: -89px;
+    font-weight: bold;
+  }
+  .hac{
+    font-size: 25px;
+    margin-left: 350px;
+    color: grey;
+    bottom: 50px; 
+    position: relative;
+    top: -190px;
+    left: -89px;
+  }
+  .chbt{
+    position: relative; /* Set the position to relative */
+    top: -160px; /* Adjust the top value to move it up */
+    margin-left: 520px;
+    font-size: 25px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    COLOR:#1CB0F6;
+  }

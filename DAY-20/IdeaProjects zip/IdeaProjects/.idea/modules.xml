@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/ECommerce1/ECommerce1.iml" filepath="$PROJECT_DIR$/IdeaProjects/ECommerce1/ECommerce1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NamingServer/NamingServer.iml" filepath="$PROJECT_DIR$/NamingServer/NamingServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/apigateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects/demo/demo.iml" filepath="$PROJECT_DIR$/IdeaProjects/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OldEcommrce/ECommerce/main.iml" filepath="$PROJECT_DIR$/OldEcommrce/ECommerce/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice/microservice.iml" filepath="$PROJECT_DIR$/microservice/microservice/microservice.iml" />
+    </modules>
+  </component>
+</project>

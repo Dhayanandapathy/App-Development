@@ -1,0 +1,169 @@
+.image-container {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the container horizontally */
+  }
+  
+  /* Style for the image */
+  .let {
+    width: 800px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+  }
+  
+  /* Style for the text overlay */
+  .text-overlay {
+    position: absolute;
+    top: 120px;
+    margin-left: 400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  /* Style for the text */
+  .hds {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+
+}
+  
+  .prs {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+  .bts{
+    
+    margin-top: 40px;
+    margin-right: 120px;
+    font-size: 25px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .hea{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    margin-top: 20px;
+    font-weight:bold ;
+  }
+  .line1 {
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: grey; /* Line color */
+    margin-top: 10px;
+  }
+  .line2{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: grey; /* Line color */
+    margin-top: -90px;
+  }
+  .line3{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: grey; /* Line color */
+    margin-top: -80px;
+  }
+  .line4{
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Line color */
+    margin-top: -10px;
+  }
+  .pars{
+    font-size: 25px;
+    margin-left: 350px;
+    font-weight: 300;
+    bottom: 50px; 
+    position: relative;
+    top: -125px;
+    left: -89px;
+    font-weight: bold;
+  }
+  .pras{
+    font-size: 25px;
+    margin-left: 350px;
+    color: grey;
+    bottom: 50px; 
+    position: relative;
+    top: -120px;
+    left: -89px;
+  }
+  .had{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    bottom: 100px;
+    top:-10;
+    font-weight:bold ;
+    margin-left: 00px;
+  }
+  .btts {
+    position: relative; /* Set the position to relative */
+    top: -200px; /* Adjust the top value to move it up */
+    margin-left: 620px;
+    font-size: 15px;
+    line-height: 45px;
+    height: 48px;
+    width: 150px;
+    border-radius: 10px;
+    color:#CF17C8
+  }
+  .img3{
+    display: flex;
+
+  }
+  .img4{
+    display: flex;
+    
+  }
+
+.vun{
+  margin-left: 320px;
+}
+.str{
+  font-size: 25px;
+    margin-left: 360px;
+    width: 250px;
+    bottom: 50px; 
+    position: relative;
+    margin-top: -80px;
+    left: -89px;
+    font-weight: bold;
+}
+.pun{
+  display: flex;
+  flex-direction: column ;
+}
+.strs{
+  margin-top: -40px;
+  margin-left: 270px;
+  font-size: 25px;
+  color: grey;
+
+}
+.btstr{
+  height: 40px;
+  width: 150px;
+  margin-top: -60px;
+  margin-left: 600px;
+}
+.line4{
+  margin-top: 100px;
+}

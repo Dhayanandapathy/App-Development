@@ -1,0 +1,25 @@
+.mooku{
+    margin-left: 250px;
+}
+.App-heer{
+    margin-left: 450px;
+}
+.nikitha1{
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+.appimg{
+    content: ""; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250%;
+    background-color: rgb(122, 160, 141);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* opacity: 0.5; /* Adjust the opacity value to control the fading effect */
+    z-index: -1;
+}

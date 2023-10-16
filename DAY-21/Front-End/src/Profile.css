@@ -1,0 +1,186 @@
+.profile-avatar {
+  width: 300px; 
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  margin-top: 30px; 
+  margin-left: 400px;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.newcon{
+    background-color:#58CC02;
+    width: 600px; 
+    height: 330px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 40px;
+}
+.hiar{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hiar1{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hiar2{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 20px;
+}
+.ans{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ans1{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.hiar3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hiar4{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 20px;
+}
+.ans2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ans3{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 16   px;
+    font-weight: bold;
+}
+.hiar5{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hiar6{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 20px;
+}
+.ans4{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ans5{
+    margin-left: 300px;
+    margin-top: -23px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.topper{
+    font-size: 30px;
+    margin-top: 420px;
+    margin-left: -940px;
+    font-weight: bold;
+}
+.smallcon{
+    background-color: rgba(128, 128, 128, 0.512);
+    width: 18%; 
+    height: 100px;
+    margin-top: 470px;
+    margin-left: -110px;
+    border-radius: 40px;
+}
+.pictures1{
+    margin-top: 10px;
+    margin-left: 30px; 
+}
+.numer{
+    color: rgb(128, 128, 128);
+    margin-top: -35px;
+    margin-left: 90px; 
+    font-size: 30px;
+}
+.streak{
+    color: rgb(128, 128, 128);
+    margin-top: 8px;
+    margin-left: 90px; 
+    font-size: 20px;
+}
+.smallcon1{
+    background-color: rgba(128, 128, 128, 0.512);
+    width: 18%; 
+    height: 100px;
+    margin-top: 470px;
+    margin-left: 180px;
+    border-radius: 40px;
+}
+.pictures2{
+    margin-top: 10px;
+    margin-left: 30px; 
+}
+.smallcon2{
+    background-color: rgba(128, 128, 128, 0.512);
+    width: 18%; 
+    height: 100px;
+    margin-top: 630px;
+    margin-left: -773px;
+    border-radius: 40px;
+}
+.numer2{
+    color: rgb(128, 128, 128);
+    margin-top: -40px;
+    margin-left: 90px; 
+    font-size: 30px;
+}
+.streak2{
+    color: rgb(128, 128, 128);
+    margin-top: 10px;
+    margin-left: 90px; 
+    font-size: 20px;
+}
+.smallcon3{
+    background-color: rgba(128, 128, 128, 0.512);
+    width: 18%; 
+    height: 100px;
+    margin-top: 630px;
+    margin-left: 180px;
+    border-radius: 40px;
+}
+.numer3{
+    color: rgb(128, 128, 128);
+    margin-top: -40px;
+    margin-left: 90px; 
+    font-size: 30px;
+}
+.streak3{
+    color: rgb(128, 128, 128);
+    margin-top: 10px;
+    margin-left: 90px; 
+    font-size: 20px;
+}
+.ot{
+    background-color: red;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 260px;
+}

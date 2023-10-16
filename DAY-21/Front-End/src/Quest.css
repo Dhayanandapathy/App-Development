@@ -1,0 +1,109 @@
+.welcome-container {
+  display: flex;
+  align-items: center;
+  background-color: #9069CD; /* Violet background color */
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 450px;
+  height: 240px;
+  width: 570px;
+}
+
+
+.violet-box {
+
+  padding: 10px;
+}
+
+.first-line {
+  font-size: 40px;
+  
+}
+
+.second-line {
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.daily-quests {
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.quesname{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: -37%; /* Align to the right by setting left margin to auto */
+  margin-top: 400px; /* Adjust the value to your preference */
+  display: block;
+  font-family: sans-serif;
+  color: rgba(75, 75, 75, 0.885);
+}
+.quescon{
+  width: 30%;
+  height: 130px;
+  margin-top: 455px;
+  margin-left: -11%;
+  background-color: #8f69cd82;
+  border-radius: 10px;
+}
+
+.questpara{
+  font-size: 28px;
+  margin-top: -90px;
+  margin-left: 25%;
+ 
+  
+}
+.questline {
+  width: 18%;
+  height: 20px;
+  margin-top: 500px;
+  background-color: rgba(128, 128, 128, 0.514);
+  
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 190px;
+  margin-left: 600px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.questmain{
+  margin-left: 100px;
+}
+.questimgs{
+  margin-top: 20px;
+}
+.questimgs1{
+  width: 50px;
+  height: 90px;
+  margin-top: -60px;
+  margin-left: 300px;
+}
+.quescon1{
+  width: 30%;
+  height: 130px;
+  margin-top: 620px;
+  margin-left: -30%;
+  background-color: #8f69cd82;
+  border-radius: 10px;
+}
+.questimg2{
+  width: 80px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left:10px;
+
+}
+.questmain1{
+  font-size: 28px;
+  margin-top: -60px;
+  margin-left: 25%;
+  color: rgb(106, 104, 104);
+}

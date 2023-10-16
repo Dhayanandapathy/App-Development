@@ -1,0 +1,228 @@
+/* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* color variables  */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-green:black;
+    --primary-dark: #24292F;
+    --primary-light: #ffffff;
+    --fade-light: #F6F8FA;
+    --border-color: rgb(141, 141, 141);
+}
+
+
+.body a {
+    text-decoration: none;
+}
+
+.body * {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ /*.body  {
+    width: 100%;
+    height: 100vh;
+    background-color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}*/
+/*.body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('E:\PROJECTS\NIPO\src\Pics\back.png'); /* Replace 'your-image.jpg' with the path to your image 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5; /* Adjust the opacity value to control the fading effect 
+}
+*/
+
+.body .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+   
+}
+
+/*.body .logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}*/
+
+.body .logo i {
+    font-size: 50px;
+}
+
+.body .head {
+    font-size: 28px;
+    color: white;
+    position: absolute;
+}
+
+.body .login-wrapper {
+    width: 500px;
+    border: 1px solid var(--border-color);
+    padding: 25px 15px;
+    border-radius: 5px;
+    background-color: lightpurple;
+    margin-top: 10px;
+    margin-left: 700px;
+    color: #070707;
+}
+.body {
+    position: relative; /* Make sure the ::before pseudo-element is positioned relative to this element */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body::before {
+    content: ""; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://t4.ftcdn.net/jpg/02/54/80/61/360_F_254806159_XDaYgRIDwydC3JQm2Tf0HMoxYr9DB7MY.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* opacity: 0.5; /* Adjust the opacity value to control the fading effect */
+    z-index: -1; /* Place the pseudo-element behind the content */
+}
+
+/*.body .login-wrapper {
+     Your styles for the .login-wrapper go here 
+}
+*/
+
+.body .input-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.body .input-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+
+}
+
+.body input {
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-dark);
+}
+
+.body input:focus {
+    border: 1px solid blue;
+}
+
+.body .submit-btn {
+    margin-top:5%;
+    margin-left: 25%;
+    width: 50%;
+    padding: 5px 0px;
+    font-size: 18px;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.body .submit-btn:hover {
+    transform: translateY(-1px);
+}
+
+.body .info {
+    font-size: 15px;
+    margin-top: 35px;
+    border: 1px solid var(--border-color);
+    padding: 20px 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--fade-light);
+}
+
+.body .dev-info{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color:white;
+}
+
+
+@media screen and (max-width:360px) {
+    .body .body {
+        padding: 0px 10px;
+    }
+
+    .body .info {
+        font-size: 14px;
+        padding: 17px 10px;
+    }
+
+    .body .input-label {
+        font-size: 14px;
+    }
+}
+/* SlideButton.css */
+
+.slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .slide-button {
+    background: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .slide-button.slide {
+    transform: translateY(50px); /* Adjust this value to control the slide distance */
+  }
+  

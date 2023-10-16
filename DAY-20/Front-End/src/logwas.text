@@ -1,0 +1,97 @@
+import react from 'react'
+import './Mainpage.css';
+import { Link } from 'react-router-dom';
+
+function Mainpage() {
+  
+
+  return (
+     <div className="bodys">
+      <div className='dum'>
+      <h className="brain">Nipo</h>
+      </div>
+      <div className='lkl'>
+      <img  className='spar'src='https://media.tenor.com/RMcvgyGp1FkAAAAC/duolingo-language-app.gif' width="600px" height="600px"></img>
+      </div>
+      <div className='pics'>   
+   
+     <p className="hair">The free, fun, and effective way to learn a language!</p>
+     <button className="shirt"><Link style={{textDecoration:"none",color:"inherit"}} to ={'signup'}>Get Started</Link></button>
+     <button className="shirts"><Link style={{textDecoration:"none",color:"inherit"}} to={'/login'}>I Already have an Account</Link></button>
+      </div>
+      </div>
+
+    
+  )
+
+}
+export default Mainpage;
+
+
+css
+
+
+.bodys {
+  background-image: url(''); /* Replace with the path to your GIF image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to cover the entire viewport */
+}
+
+.brain {
+  font-size: 35px;
+  margin-top: 0;
+  margin-left: 700px;
+  color: purple;
+}
+
+.pics {
+  margin-left: 400px;
+  margin-top: 250px;
+}
+
+.hair {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 380px;
+  margin-top: -680px;
+}
+
+.shirt {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 45%;
+  width: 30%;
+  height: 50px;
+  background-color: purple;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid #58CC02; /* Added 'solid' to specify border style */
+}
+
+.shirts {
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 45%;
+  width: 30%;
+  height: 50px;
+  border: 1px solid white; /* Added 'solid' to specify border style */
+  color: #1CB0F6;
+  border-radius: 20px;
+}
+
+.tops {
+  font-size: 30px;
+  margin-left: -100px;
+  margin-top: -23%;
+  position: absolute;
+  z-index: 1;
+  color: grey;
+}
+
+.spar {
+  margin-left: 90px;
+  margin-top: 90px;
+}
